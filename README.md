@@ -9,7 +9,7 @@ PHP SDK FOR BRAWL API
 	```
 2)  Подключаем класс
 	```php
-  $token = 'YouToken';
+  	$token = 'YouToken';
 	$brawl = new BrawlApi($token);
 	```
 3)  Вызываем методы
