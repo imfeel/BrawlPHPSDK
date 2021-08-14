@@ -16,28 +16,28 @@ class BrawlApi {
 	}
 	public function clubs($tag) { 
 	    $tag = str_replace('#', '', $tag);
-	    return $this->requests('clubs/%' . $tag, $this->token);
+	    return $this->requests('clubs/%' . $tag);
 	}
 	public function clubsMembers($tag) {
 	    $tag = str_replace('#', '', $tag);
-	    return $this->requests('clubs/%' . $tag . '/members', $this->token);
+	    return $this->requests('clubs/%' . $tag . '/members');
 	}
-	public function brawlers($token) { 
+	public function brawlers() { 
 	    $tag = str_replace('#', '', $tag);
-	    return $this->requests('brawlers', $token);
+	    return $this->requests('brawlers');
 
 	}
 	public function brawlersId($Id) { 
 	    $tag = str_replace('#', '', $tag);
-	    return $this->requests('brawlers/' . $Id, $this->token);
+	    return $this->requests('brawlers/' . $Id);
 	}
     public function players($tag) { 
         $tag = str_replace('#', '', $tag);
-        return $this->requests('players/%' . $tag, $this->token);
+        return $this->requests('players/%' . $tag);
     }
     public function BattleLog($tag) {
         $tag = str_replace('#', '', $tag);
-        return $this->requests('players/%' . $tag . 'battlelog', $this->token);
+        return $this->requests('players/%' . $tag . 'battlelog');
     }
 
 	
