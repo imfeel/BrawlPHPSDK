@@ -46,3 +46,5 @@ PHP SDK FOR BRAWL API
       ```php
       echo $brawl->EventsRotation();
       ```
+  5. Внимание
+      SDK передает тело запроса к Brawl Stars Api. Передается строка! Для использования нужно изменить тип данных на JSON (json_decode)
