@@ -1,5 +1,6 @@
 # BrawlPHPSDK
 PHP SDK FOR BRAWL API 
+
 Я не нашел подобного на PHP, так что решил написать самостоятельно. 
 
 # Использование BrawlPHPSDK
