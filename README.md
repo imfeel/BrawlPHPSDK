@@ -1,5 +1,5 @@
 # BrawlPHPSDK
-PHP SDK FOR BRAWL API 
+PHP SDK FOR BRAWL STARS API 
 
 Я не нашел подобного на PHP, так что решил написать самостоятельно. 
 
