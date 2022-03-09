@@ -2,7 +2,7 @@
 /*
  * Brawl Api
  *
- * @author github.com/imfeel
+ * @author github.com/g1tufix
  *
  */
 
